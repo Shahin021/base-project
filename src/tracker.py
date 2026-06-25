@@ -25,3 +25,13 @@ class ProjectTracker:
             project for project in self.projects
             if project.category.lower() == category.lower()
         ]
+
+    def search(self, keyword: str):
+        keyword = keyword.lower()
+
+        return [
+            project for project in self.projects
+            if keyword in project.name.lower()
+            or keyword in project.category.lower()
+            or keyword in project.notes.lower()
+        ]
