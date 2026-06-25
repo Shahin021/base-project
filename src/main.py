@@ -1,19 +1,15 @@
-from src.models import Project
+from src.loader import load_projects
 from src.tracker import ProjectTracker
 
 
 def main():
     tracker = ProjectTracker()
+    projects = load_projects("data/projects.json")
 
-    tracker.add_project(
-        Project(
-            name="Base",
-            category="Layer 2",
-            status="Watching",
-            website="https://base.org",
-            notes="Tracking ecosystem activity and builder updates."
-        )
-    )
+    for project in projects:
+        tracker.add_project(project)
+
+    print(f"Loaded projects: {tracker.count_projects()}")
 
     for project in tracker.list_projects():
         print(f"{project.name} | {project.category} | {project.status}")
