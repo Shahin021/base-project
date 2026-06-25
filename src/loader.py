@@ -28,7 +28,8 @@ def load_projects(file_path: str):
                 category=item.get("category", ""),
                 status=item.get("status", ""),
                 website=item.get("website", ""),
-                notes=item.get("notes", "")
+                notes=item.get("notes", ""),
+                tags=item.get("tags", [])
             )
         )
 
