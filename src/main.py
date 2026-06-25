@@ -1,4 +1,5 @@
 from src.config import DATA_FILE
+from src.csv_exporter import export_projects_csv
 from src.exporter import export_text_report
 from src.loader import load_projects
 from src.report import build_summary
@@ -14,7 +15,9 @@ def main():
 
     summary = build_summary(tracker)
     print(summary)
+
     export_text_report(summary, "reports/summary.txt")
+    export_projects_csv(tracker, "reports/projects.csv")
 
 
 if __name__ == "__main__":
