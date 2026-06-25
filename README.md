@@ -2,13 +2,26 @@
 
 A simple Python project for tracking crypto projects, ecosystem notes, and useful research links.
 
-## What it does
+## Features
 
-- Stores basic project information
-- Tracks project category and status
-- Keeps research notes organized
-- Helps practice clean Python development
+- Project data model
+- JSON project loading
+- Project status filtering
+- Project category filtering
+- Basic search
+- Summary report output
+- Sample crypto project dataset
 
 ## Run
 
 python -m src.main
+
+## Project Data
+
+Project data is stored in:
+
+data/projects.json
+
+## Goal
+
+The goal is to keep crypto ecosystem research organized while practicing clean Python development.
