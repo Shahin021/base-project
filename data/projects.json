@@ -5,5 +5,19 @@
     "status": "Watching",
     "website": "https://base.org",
     "notes": "Tracking ecosystem activity and builder updates."
+  },
+  {
+    "name": "Startale App",
+    "category": "Consumer App",
+    "status": "Testing",
+    "website": "https://app.startale.com",
+    "notes": "Tracking mini apps, user experience, and Soneium ecosystem activity."
+  },
+  {
+    "name": "Soneium",
+    "category": "Layer 2",
+    "status": "Researching",
+    "website": "https://soneium.org",
+    "notes": "Watching ecosystem growth, apps, and onchain user activity."
   }
 ]
