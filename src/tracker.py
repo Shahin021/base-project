@@ -13,3 +13,9 @@ class ProjectTracker:
 
     def count_projects(self):
         return len(self.projects)
+
+    def filter_by_status(self, status: str):
+        return [
+            project for project in self.projects
+            if project.status.lower() == status.lower()
+        ]
