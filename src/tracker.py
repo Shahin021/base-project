@@ -34,4 +34,5 @@ class ProjectTracker:
             if keyword in project.name.lower()
             or keyword in project.category.lower()
             or keyword in project.notes.lower()
+            or keyword in " ".join(project.tags).lower()
         ]
