@@ -1,3 +1,4 @@
+from src.config import DATA_FILE
 from src.loader import load_projects
 from src.report import build_summary
 from src.tracker import ProjectTracker
@@ -5,7 +6,7 @@ from src.tracker import ProjectTracker
 
 def main():
     tracker = ProjectTracker()
-    projects = load_projects("data/projects.json")
+    projects = load_projects(DATA_FILE)
 
     for project in projects:
         tracker.add_project(project)
