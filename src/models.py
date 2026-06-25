@@ -1,4 +1,4 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 
 @dataclass
@@ -8,3 +8,4 @@ class Project:
     status: str
     website: str = ""
     notes: str = ""
+    tags: list[str] = field(default_factory=list)
