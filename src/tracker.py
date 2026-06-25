@@ -19,3 +19,9 @@ class ProjectTracker:
             project for project in self.projects
             if project.status.lower() == status.lower()
         ]
+
+    def filter_by_category(self, category: str):
+        return [
+            project for project in self.projects
+            if project.category.lower() == category.lower()
+        ]
