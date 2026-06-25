@@ -2,3 +2,7 @@ __pycache__/
 *.pyc
 .env
 venv/
+
+setup_project.py
+update_*.py
+batch_*.py
