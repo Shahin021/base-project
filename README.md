@@ -1,6 +1,6 @@
 # Base Project
 
-A simple Python project for tracking crypto projects, ecosystem notes, and useful research links.
+A simple Python project for tracking crypto projects, ecosystem notes, useful research links, and project tags.
 
 ## Features
 
@@ -8,9 +8,11 @@ A simple Python project for tracking crypto projects, ecosystem notes, and usefu
 - JSON project loading
 - Project status filtering
 - Project category filtering
+- Tag support
 - Basic search
 - Summary report output
 - Text report export
+- CSV project export
 - Command line interface
 - Sample crypto project dataset
 
@@ -31,6 +33,12 @@ python -m src.cli --search Startale
 Project data is stored in:
 
 data/projects.json
+
+## Reports
+
+Generated reports are saved in:
+
+reports/
 
 ## Goal
 
