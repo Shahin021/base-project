@@ -10,3 +10,5 @@
 - Added sample project data
 - Added usage documentation
 - Added basic tracker tests
+- Added report exporter
+- Added command line interface
