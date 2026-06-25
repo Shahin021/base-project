@@ -19,5 +19,12 @@
     "status": "Researching",
     "website": "https://soneium.org",
     "notes": "Watching ecosystem growth, apps, and onchain user activity."
+  },
+  {
+    "name": "OnchainKit",
+    "category": "Developer Tool",
+    "status": "Learning",
+    "website": "https://onchainkit.xyz",
+    "notes": "Useful toolkit for building onchain apps."
   }
 ]
