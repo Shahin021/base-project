@@ -1,4 +1,5 @@
 from src.loader import load_projects
+from src.report import build_summary
 from src.tracker import ProjectTracker
 
 
@@ -9,10 +10,7 @@ def main():
     for project in projects:
         tracker.add_project(project)
 
-    print(f"Loaded projects: {tracker.count_projects()}")
-
-    for project in tracker.list_projects():
-        print(f"{project.name} | {project.category} | {project.status}")
+    print(build_summary(tracker))
 
 
 if __name__ == "__main__":
