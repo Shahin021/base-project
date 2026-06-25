@@ -1,4 +1,5 @@
 from src.config import REPORT_TITLE
+from src.formatter import format_project
 from src.stats import count_by_category, count_by_status
 from src.tracker import ProjectTracker
 
@@ -12,7 +13,7 @@ def build_summary(tracker: ProjectTracker) -> str:
     ]
 
     for project in tracker.list_projects():
-        lines.append(f"- {project.name} | {project.category} | {project.status}")
+        lines.append(f"- {format_project(project)}")
 
     lines.append("")
     lines.append("Categories:")
