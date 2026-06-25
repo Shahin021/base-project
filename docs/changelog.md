@@ -12,3 +12,7 @@
 - Added basic tracker tests
 - Added report exporter
 - Added command line interface
+- Added project tags
+- Added tag utilities
+- Added tag statistics
+- Added CSV export
