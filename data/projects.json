@@ -4,27 +4,47 @@
     "category": "Layer 2",
     "status": "Watching",
     "website": "https://base.org",
-    "notes": "Tracking ecosystem activity and builder updates."
+    "notes": "Tracking ecosystem activity and builder updates.",
+    "tags": [
+      "layer2",
+      "builders",
+      "ecosystem"
+    ]
   },
   {
     "name": "Startale App",
     "category": "Consumer App",
     "status": "Testing",
     "website": "https://app.startale.com",
-    "notes": "Tracking mini apps, user experience, and Soneium ecosystem activity."
+    "notes": "Tracking mini apps, user experience, and Soneium ecosystem activity.",
+    "tags": [
+      "soneium",
+      "mini-apps",
+      "consumer"
+    ]
   },
   {
     "name": "Soneium",
     "category": "Layer 2",
     "status": "Researching",
     "website": "https://soneium.org",
-    "notes": "Watching ecosystem growth, apps, and onchain user activity."
+    "notes": "Watching ecosystem growth, apps, and onchain user activity.",
+    "tags": [
+      "sony",
+      "layer2",
+      "ecosystem"
+    ]
   },
   {
     "name": "OnchainKit",
     "category": "Developer Tool",
     "status": "Learning",
     "website": "https://onchainkit.xyz",
-    "notes": "Useful toolkit for building onchain apps."
+    "notes": "Useful toolkit for building onchain apps.",
+    "tags": [
+      "developer",
+      "base",
+      "tooling"
+    ]
   }
 ]
